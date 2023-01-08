@@ -12,6 +12,9 @@ py_library(
 py_test(
   name = "candle_pipeline_test",
   srcs = ["candle_pipeline_test.py"],
+  deps = [
+    ":candle_pipeline",
+  ]
 )
 
 compile_pip_requirements(
