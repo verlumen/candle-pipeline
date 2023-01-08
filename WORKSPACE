@@ -8,7 +8,8 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 git_repository(
     name = "rules_python",
     remote = "https://github.com/bazelbuild/rules_python",
-    tag = "0.8.1",
+    commit = "ae7a2677b3003b13d45bc9bfc25f1425bed5b407", 
+    shallow_since = "1650635688 -0400",
 )
 
 load("@rules_python//python:repositories.bzl", "python_register_toolchains")
