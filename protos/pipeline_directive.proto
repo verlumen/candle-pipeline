@@ -1,0 +1,7 @@
+message Instrument {
+  string symbol = 1;
+}
+
+message PipelineDirective {
+  repeated Instrument insruments = 1;
+}
