@@ -13,7 +13,7 @@ py_test(
     name = "main_test",
     srcs = ["main_test.py"],
     deps = [
-        ":candle_pipeline",
+        ":main",
     ],
 )
 
