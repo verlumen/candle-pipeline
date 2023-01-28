@@ -1,13 +1,13 @@
 import unittest
 
 
-class CandlePipelineTestCase(unittest.TestCase):
+class MainTestCase(unittest.TestCase):
     def test_import(self):
         # Act
-        import candle_pipeline
+        import main
 
         # Assert
-        self.assertIsNotNone(candle_pipeline)
+        self.assertIsNotNone(main)
 
 
 if __name__ == "__main__":
