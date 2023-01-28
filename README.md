@@ -1,1 +1,1 @@
-# candle_pipeline
+# candle-pipeline
